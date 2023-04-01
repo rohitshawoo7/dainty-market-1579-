@@ -106,5 +106,102 @@
    display: flex;
    margin: auto;
    gap: 30px;
+}
+img{
+    width: 80%;
+    height: 350px;
+    margin-left: 150px;
+}
+.containerImages{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    
+}
+.containerImages>div{
+    border-radius: 10px;
+    padding: 20px;
+    
+    width: 200px;
+    margin-left: 80px;
+}
+.containerImages img{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    
+}
+.daily{
+    
+    display: flex;
+    gap: 30px;
+    width: 50%;
+    margin-left: 200px;
+    
+}
+.middle{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 100px;
+    background-color: rgb(37, 229, 165);
+    margin: auto;
+}
+.middle>div{
+    margin-top: 25px;
+    margin-left: 80px;
+}
+.middle>div>button{
+    width: 150px;
+    border: 2px solid black;
+    height: 45px;
+    background-color:rgb(37, 229, 165) ;
+    margin-right: 40px;
+}
+.popular{
+    
+    display: flex;
+    gap: 30px;
+    width: 50%;
+    margin-left: 200px;
+    
+}
+.product{
+    display: flex;
+    height: 400px;
+    justify-content: space-around;
+    margin: auto;
 
+    
+}
+.product>div>img{
+    width: 200px;
+    margin-right: 100px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+
+.product>div>p{
+    text-align: center;
+}
+.down2{
+    display: flex;
+    justify-content: space-between;
+}
+.down2>div:nth-child(1){
+    margin-left: 200px;
+    
+}
+.down2>div>img{
+    width: 1000px;
+    height: 350px;
+}
+.down2>div>p{
+    margin-top: 20px;
+}
+.down2>div>button{
+    width: 140px;
+    height: 30px;
+    margin-top: 30px;
+    background-color: white;
 }
