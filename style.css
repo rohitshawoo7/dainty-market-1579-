@@ -1,207 +1,208 @@
-* {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-}
 
-.nav {
-
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  .Container {
+    width: 100%;
+  }
+  
+  .navbar {
     width: 100%;
     height: 40px;
+    border-bottom: 1px solid lightgray;
     display: flex;
-    margin: auto;
     justify-content: space-between;
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
-}
-
-.left {
+  }
+  .left {
     display: flex;
-    margin: auto;
-    margin-right: 300px;
+    align-items: center;
+    gap: 30px;
+    font-size: 13px;
+    margin-left: 50px;
+  }
+  .right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 13px;
+    margin-right: 50px;
+  }
+  .right > img {
+    width: 20px;
+    height: 20px;
+  }
+  .left > div {
+    display: flex;
+    align-items: center;
     gap: 5px;
-
-
-}
-
-.left>button {
-    background: none;
+  }
+  .left > p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .logoInputContainer {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid lightgray;
+    height: 40px;
+    padding: 20px;
+  }
+  .logoInputContainer > img {
+    width: 120px;
+  }
+  .logoInputContainer > button {
+    width: 150px;
+    height: 110%;
     border: none;
+    color: white;
+    background: blue;
+  }
+  .logoInputContainerInput {
+    width: 900px;
+    height: 100%;
+  }
+  
+  .navItemsContainer {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 12px;
+    border-bottom: 1px solid lightgray;
+  }
+  .navItemsContainer > p:hover {
     color: blue;
     text-decoration: underline;
-
-}
-
-.left>p:nth-child(5) {
-    margin-left: 20px;
-}
-
-.left>p:nth-child(6) {
-    margin-left: 20px;
-}
-
-.right {
-    display: flex;
+    cursor: pointer;
+  }
+  
+  .poster {
+    width: 100%;
+  }
+  .poster > img {
+    width: 100%;
+  }
+  .dailyDealsContainer {
+    width: 90%;
     margin: auto;
-    align-items: end;
+    margin-bottom: 70px;
+  }
+  
+  .dailyDealsContainer > :nth-child(1) {
+    display: flex;
+    align-items: center;
     gap: 20px;
-
-}
-
-.navdown {
-
+  }
+  .dailyDealsContainer > :nth-child(1) > h1 {
+    font-weight: 100;
+  }
+  .dailyDealsContainer > :nth-child(1) > h2 {
+    font-weight: 100;
     display: flex;
-    margin: auto;
-    height: 70px;
     gap: 10px;
-    margin-top: 10px;
-    width: 1200px;
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
-
-}
-
-.navdown>img {
-    width: 150px;
-    height: 70px;
-}
-
-.navdown>input:nth-child(3) {
-    border: 2px solid black;
-    width: 800px;
-    height: 40px;
-    margin-top: 8px;
-}
-
-.navdown>input:nth-child(4) {
-    background-color: rgb(107, 107, 231);
-    width: 150px;
-    height: 40px;
-    margin-top: 8px;
-    text-align: center;
-    border: none;
-
-
-}
-
-.navdown>p {
-    margin-top: 8px;
-}
-.navdown>button{
-    border: none;
-    background-color: #1394DD;
-    color: white;
-    width: 150px;
-    height: 40px;
-    margin-top: 8px;
-}
-.nav2{
-    
-    display: flex;
-    margin: auto;
-    margin-top: 10px;
-}
-
-
-.single {
-    
-   display: flex;
-   margin: auto;
-   gap: 30px;
-}
-img{
-    width: 80%;
-    height: 350px;
-    margin-left: 150px;
-}
-.containerImages{
+    margin-top: 27px;
+  }
+  .dailyDealsContainer > :nth-child(1) > h2 > img {
+    width: 30px;
+  }
+  .dailyDealsContainer > :nth-child(1) > h1:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .dailyDealsContainer > :nth-child(1) > h2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .dailyDealsImageCont {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    
-}
-.containerImages>div{
-    border-radius: 10px;
-    padding: 20px;
-    
-    width: 200px;
-    margin-left: 80px;
-}
-.containerImages img{
-    width: 150px;
-    height: 150px;
-    margin: auto;
-    
-}
-.daily{
-    
-    display: flex;
-    gap: 30px;
-    width: 50%;
-    margin-left: 200px;
-    
-}
-.middle{
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-    height: 100px;
-    background-color: rgb(37, 229, 165);
-    margin: auto;
-}
-.middle>div{
-    margin-top: 25px;
-    margin-left: 80px;
-}
-.middle>div>button{
-    width: 150px;
-    border: 2px solid black;
-    height: 45px;
-    background-color:rgb(37, 229, 165) ;
-    margin-right: 40px;
-}
-.popular{
-    
-    display: flex;
-    gap: 30px;
-    width: 50%;
-    margin-left: 200px;
-    
-}
-.product{
-    display: flex;
-    height: 400px;
-    justify-content: space-around;
-    margin: auto;
-
-    
-}
-.product>div>img{
-    width: 200px;
-    margin-right: 100px;
-    height: 200px;
-    border-radius: 100px;
-}
-
-
-.product>div>p{
+    grid-template-rows: repeat(1, 250px);
+    gap: 20px;
+  }
+  .dailyDealsImageCont > div {
+    width: 100%;
+  }
+  .dailyDealsImageCont > div > img {
+    width: 100%;
+    height: 80%;
+    padding: 10px;
+  }
+  .popularsImageCont {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 20px;
+  }
+  .popularsImageCont > div {
     text-align: center;
-}
-.down2{
+  }
+  .popularsImageCont > div > div {
+    padding: 20px;
+    border-radius: 50%;
+  }
+  .popularsImageCont > div > div > img {
+    width: 100px;
+    height: 110px;
+  }
+  .popularsImageCont > div > h4:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .off {
     display: flex;
-    justify-content: space-between;
-}
-.down2>div:nth-child(1){
-    margin-left: 200px;
-    
-}
-.down2>div>img{
-    width: 1000px;
-    height: 350px;
-}
-.down2>div>p{
-    margin-top: 20px;
-}
-.down2>div>button{
-    width: 140px;
-    height: 30px;
-    margin-top: 30px;
-    background-color: white;
-}
+    height: 300px;
+    margin-bottom: 70px;
+  }
+  .off > :nth-child(1) {
+    flex: 0.8;
+  }
+  .off > :nth-child(1) > div {
+    padding: 0px 40px 40px 40px;
+    color: #234318;
+  }
+  .off > :nth-child(1) > div > p {
+    font-weight: 500;
+  }
+  .off > :nth-child(1) > div > button {
+    padding: 10px 20px;
+    background: transparent;
+    border: 1px solid #234318;
+    cursor: pointer;
+  }
+  
+  .off > :nth-child(2) {
+    flex: 2;
+  }
+  .off > :nth-child(2) > img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .footer {
+    border-top: 1px solid lightgray;
+  }
+  
+  .footerCont {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+  }
+  .footerCont h1 {
+    font-size: 18px;
+    color: gray;
+  }
+  .footerCont p {
+    font-size: 12px;
+    color: gray;
+  }
+  .footerCont p:hover {
+    font-size: 12px;
+    color: gray;
+    text-decoration: underline;
+    cursor: pointer;
+  }

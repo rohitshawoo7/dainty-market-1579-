@@ -1,0 +1,106 @@
+img{
+    width: 100px;
+    height: 100px;
+}
+.main{
+    width: 25%;
+    height: 750px;
+    margin-left: 500px;
+}
+.one{
+    width: 100%;
+    height: 130px;
+    background-color: blue;
+    color: white;
+}
+.main>h1{
+    text-align: center;
+}
+.main>p{
+    text-align: center;
+}
+#email{
+    width: 98%;
+    height: 35px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    color: black;
+
+}
+button{
+    width: 100%;
+    height: 45px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 10px;
+    border: none;
+}
+.facebook{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-color: rgb(63, 63, 156);
+    border-radius: 20px;
+    margin-top: 40px;
+}
+.facebook>img{
+    width: 50px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.facebook>p{
+    margin-left: 40px;
+    color: white;
+    font-size: 20px;
+    
+}
+.google{
+    border: 1px solid black;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+.google>img{
+    width: 50px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.google>p{
+    margin-left: 40px;
+    font-size: 20px;
+    
+}
+.apple{
+    border: 1px solid black;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+.apple>img{
+    width: 50px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.apple>p{
+    margin-left: 40px;
+    font-size: 20px;
+    
+}
+#check{
+    margin-left: 120px;
+    margin-top: 10px;
+}
+p{
+    text-align: center;
+}
