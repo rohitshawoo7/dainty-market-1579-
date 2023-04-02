@@ -1,126 +1,164 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-    <div class="nav">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ebay.com</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="Container">
+      <nav class="navbar">
         <div class="left">
+          <div>
             <p>Hi!</p>
-            <button>Sign in</button>
-            <p>or</p>
-            <button>register</button>
-            <p>Daily Deals</p>
-            <p>Help & Contract</p>
-
+            <a href="signin.html">Sign in</a>
+            or
+            <a href="signup">Sign up</a>
+          </div>
+          <p>Daily Deals</p>
+          <p>Help & Contact</p>
         </div>
         <div class="right">
-            <p>Sell</p>
-            <p>Watchlist</p>
-            <p>My eBay</p>
-            <img src="" alt="error">
-            <img src="" alt="error">
-
+          <p>Sell</p>
+          <p>My Watchlist</p>
+          <p>My eBay</p>
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/2645/2645897.png"
+            alt=""
+          />
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/2838/2838895.png"
+            alt=""
+          />
         </div>
-
-    </div>
-    <div class="navdown">
-        <img src="https://tse3.mm.bing.net/th?id=OIP.w3Frnynk0KL2XampAOZCIgHaFG&pid=Api&P=0" alt="">
+      </nav>
+      <div class="logoInputContainer">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/EBay_logo.svg/2560px-EBay_logo.svg.png"
+          alt=""
+        />
         <p>Shop by category</p>
-        <input type="search" name="" id="mysearch" placeholder="Search for anything">
-        <button>search</button>
-        <p>Advance</p>
-
-    </div>
-    <div class="nav2">
-        <div class="single">
-            <p>Home</p>
-            <p>Saved</p>
-            <p>Electronics</p>
-            <p>Motors</p>
-            <p>Fashion</p>
-            <p>Collectibles and Art</p>
-            <p>Sports</p>
-            <p>Healthy & Beauty</p>
-            <p>Industrial equipments</p>
-            <p>Home & Garden</p>
-            <p>Deals</p>
-            <p>Sell</p>
-
-        </div>
-
-
-    </div>
-    <img src="https://tse2.mm.bing.net/th?id=OIP.siUEDQxZiMKgTyg-nINppQHaCe&pid=Api&P=0" alt="error">
-    <div class="daily">
-        <h1>Daily Deals</h1>
-        <p>See All -></p>
-    </div>
-
-    <div class="containerImages"></div>
-    <div class="middle">
+        <input
+          type="text"
+          placeholder="Search for anything"
+          class="logoInputContainerInput"
+        />
+        <button>Search</button>
+      </div>
+      <div class="navItemsContainer">
+        <p>Home</p>
+        <a href="signin.html"><p>Saved</p></a>
+        <a href="electronics.html"><p>Electronics</p></a>
+        
+        <p>Motors</p>
+        <p>Fashion</p>
+        <p>Collectibles and Art</p>
+        <p>Sports</p>
+        <p>Health & Beauty</p>
+        <p>Industrial Equipments</p>
+        <p>Home & Garden</p>
+        <p>Deals</p>
+        <p>Sell</p>
+      </div>
+      <div class="poster">
+        <img
+          src="https://static.vecteezy.com/system/resources/thumbnails/004/299/815/small/online-shopping-on-phone-buy-sell-business-digital-web-banner-application-money-advertising-payment-ecommerce-illustration-search-vector.jpg"
+          alt=""
+        />
+      </div>
+      <div class="dailyDealsContainer">
         <div>
-            <h2>Whats tranding on eBay</h2>
-            <p>Save on deals you really want</p>
+          <h1>Daily Deals</h1>
+          <h2>
+            See all
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/2989/2989981.png"
+              alt=""
+            />
+          </h2>
         </div>
+        <div class="dailyDealsImageCont"></div>
+      </div>
+      <div class="dailyDealsContainer">
         <div>
-            <button>Buy Now</button>
+          <h1>Popular Desitnations</h1>
+          <h2>
+            See all
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/2989/2989981.png"
+              alt=""
+            />
+          </h2>
         </div>
-
-    </div>
-    <div class="popular">
-        <h1>Popular Destination</h1>
-        <p>See All -></p>
-    </div>
-    <div class="product">
+        <div class="popularsImageCont"></div>
+      </div>
+      <div class="off">
         <div>
-            <img src="https://images.pexels.com/photos/580707/pexels-photo-580707.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
-            <p>Jewelry and Watches</p>
-        </div>
-        <div>
-            <img src="https://images.pexels.com/photos/580707/pexels-photo-580707.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
-            <p>Jewelry and Watches</p>
-        </div>
-        <div>
-            <img src="https://images.pexels.com/photos/580707/pexels-photo-580707.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
-            <p>Jewelry and Watches</p>
-        </div>
-        <div>
-            <img src="https://images.pexels.com/photos/580707/pexels-photo-580707.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
-            <p>Jewelry and Watches</p>
-        </div>
-        <div>
-            <img src="https://images.pexels.com/photos/580707/pexels-photo-580707.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
-            <p>Jewelry and Watches</p>
-        </div>
-        <div>
-            <img src="https://images.pexels.com/photos/580707/pexels-photo-580707.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
-            <p>Jewelry and Watches</p>
-        </div>
-        <div>
-            <img src="https://images.pexels.com/photos/580707/pexels-photo-580707.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
-            <p>Jewelry and Watches</p>
-        </div>
-
-    </div>
-    <div class="down2">
-        <div>
-            <h2>Citizen upto 30% off</h2>
-            <p>From top seller to your wists</p>
+          <div>
+            <h1>Citizen Up to 30% off</h1>
+            <p>From top sellers to your wrist</p>
             <button>Shop now</button>
+          </div>
         </div>
         <div>
-            <img src="https://img.freepik.com/free-vector/flat-horizontal-sale-banner-template-with-photo_23-2149000923.jpg?w=1380&t=st=1680286794~exp=1680287394~hmac=7761df9831f64092deed623f55ff4b408bae895897e267cd8f08baac8864c31d" alt="">
+          <img
+            src="http://www.sunbornwatches.com/image/cache/catalog/30-off-webslider-1903x848.jpg"
+            alt=""
+          />
         </div>
+      </div>
+      <div class="footer">
+        <div class="footerCont">
+          <div>
+            <h1>Buy</h1>
+            <p>Registration</p>
+            <p>eBay Money Back Guarantee</p>
+            <p>Bidding & buying help</p>
+            <p>Stores</p>
+          </div>
+          <div>
+            <h1>Sell</h1>
+            <p>Start selling</p>
+            <p>Learn to sell</p>
+            <p>Affiliates</p>
+            <br />
+            <h1>Tools & apps</h1>
+            <p>Developers</p>
+            <p>Security center</p>
+            <p>Site map</p>
+          </div>
+          <div>
+            <h1>Stay connected</h1>
+            <p>facebook</p>
+            <p>twitter</p>
+          </div>
+          <div>
+            <h1>About eBay</h1>
+            <p>Company info</p>
+            <p>News</p>
+            <p>Investors</p>
+            <p>Careers</p>
+            <p>Government relations</p>
+            <p>Advertise with us</p>
+            <p>Policies</p>
+            <p>Verified Rights Owner (VeRO) Program</p>
+          </div>
+          <div>
+            <h1>Help & Contact</h1>
+            <p>Seller Information Center</p>
+            <p>Contact us</p>
+            <br />
+            <h1>Community</h1>
+            <p>Announcements</p>
+            <p>Discussion boards</p>
+            <p>eBay Giving Works</p>
+          </div>
+        </div>
+      </div>
     </div>
-    <hr>
-</body>
-<script src="dailydeals2.js"></script>
-
+  </body>
+  <script src="script.js"></script>
 </html>
